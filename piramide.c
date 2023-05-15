@@ -1,7 +1,6 @@
 
 #include <stdio.h>
-int main ()
-{
+void piramide(){
     int i,j;
 int matrix[15][15];
     for (i=0; i<15; i++) {
@@ -24,5 +23,9 @@ int matrix[15][15];
         }
         printf ("\n");
     }
+}
+int main ()
+{
+    piramide();
     return 0;
 }
